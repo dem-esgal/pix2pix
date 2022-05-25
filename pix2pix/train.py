@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 
 import config
-from pix2pix.gan_dataset import PairImageDataset
+from pix2pix.pair_image_dataset import PairImageDataset
 from pix2pix.models.discriminator import Discriminator
 from pix2pix.models.generator import Generator
 from utils import save_checkpoint, load_checkpoint, generate_images

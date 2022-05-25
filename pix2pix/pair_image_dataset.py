@@ -8,6 +8,9 @@ import pix2pix.config as config
 
 
 class PairImageDataset(Dataset):
+    """ A dataset for GAN images that stored as a paired images [A|B]
+    """
+
     def __init__(self, root_dir, image_half):
         self.root_dir = root_dir
         self.image_half = image_half

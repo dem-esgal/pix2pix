@@ -1,6 +1,6 @@
 from torch.utils.data import DataLoader
 from torchvision.utils import save_image
-from pix2pix.gan_dataset import PairImageDataset
+from pix2pix.pair_image_dataset import PairImageDataset
 
 def manual_test_gan_dataset():
     dataset = PairImageDataset("data/train/")

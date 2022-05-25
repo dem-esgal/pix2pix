@@ -20,5 +20,3 @@ jobs:
       run: |
         pipenv run coverage run
         pipenv run coverage xml
-      with:
-        path-to-lcov: coverage.xml
